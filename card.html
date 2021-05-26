@@ -1,34 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="card.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css" />
+
+  <style>
+    .profile-area {
+      padding: 80px 0;
+    }
+
+    .card {
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      border-radius: 15px;
+      border: 1px solid blue;
+      margin-left: 20px;
+      margin-top: 0px;
+    }
+
+    .img1 {
+      height: 200px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      width: 100%;
+    }
+
+    .img2 {
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 1;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 7px solid indigo;
+    }
+
+    .card-title {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 20px;
+      margin: 0 0 20px;
+    }
+
+    .card-title {
+      font-size: 16px;
+      padding: 0 35px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+      background-color: #2196f3;
+      padding: 10px;
+    }
+
+    .grid-container>div {
+      text-align: justify;
+      color: black;
+      font-weight: 400;
+    }
+  </style>
 </head>
-<body>
-    <div class="parent">
-        
-        <div class="child">
-            <img src="laptop.jpg">
-            <h3>P I Amudha</h3>
-            <p>7075243616</p>
-            <p>Spmvv college</p>
+
+<body class="ms-10">
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="profile-area">
+        <div class="card" style="width: 400px">
+          <img class="img1" src="img2.jpg" alt="." />
+          <img class="img2" src="profile4.jpg" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Monohar kumar</h5>
+            <p class="card-text">
+              Sri venkaswara university,Bachelor of Techonology,computer and
+              science engineering department 3 rd year
+            </p>
+          </div>
+          <div class="grid-container">
+            <div class="item1">Address:</div>
+            <div class="item2">
+              Tirupati Division Kurnool Region Andhra Pradesh Circle
+              pincode=517507,
+            </div>
+          </div>
         </div>
-        <div class="child">
-            <img src="laptop.jpg">
-            <h3>P Mounika</h3>
-            <p>79441135596</p>
-            <p>Spmvv college</p>
-        </div>
-        <div class="child">
-            <img src="laptop.jpg">
-            <h3>B charishma</h3>
-            <p>9182082836</p>
-            <p>Spmvv college</p>
-        </div>
+      </div>
     </div>
+    <div class="col">
+      <div class="profile-area">
+        <div class="card" style="width: 400px">
+          <img class="img1" src="img2.jpg" alt="..." />
+          <img class="img2" src="profile1.jpg" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Karthick</h5>
+            <p class="card-text">
+              Chadalawada Ramanamma Engineering College,Bachelor OF
+              Techonology,Electronic engineering
+            </p>
+          </div>
+          <div class="grid-container">
+            <div class="item1">Address:</div>
+            <div class="item2">
+              Tirupati Division Kurnool Region Andhra Pradesh Circle
+              pincode=517507,
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="col">
+      <div class="profile-area">
+        <div class="card" style="width: 400px">
+          <img class="img1" src="img2.jpg" alt=".." />
+          <img class="img2" src="profile2.jpg" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Jammuna</h5>
+            <p class="card-text">
+              Sri Padmavathi Mahila visvaVidhyalam university ,Bachelor of
+              Technlogy,Computer science and Engineering .
+            </p>
+          </div>
+          <div class="grid-container">
+            <div class="item1">Address:</div>
+            <div class="item2">
+              Tirupati Division Kurnool Region Andhra Pradesh Circle
+              pincode=517507,
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="profile-area">
+      <div class="card" style="width: 400px">
+        <img class="img1" src="img2.jpg" alt="..." />
+        <img class="img2" src="profile3.jpg" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Joesph Marry</h5>
+          <p class="card-text">
+            Chadalawada Ramanamma Engineering College,Bachelor OF
+            Techonology,Electronic engineering
+          </p>
+        </div>
+        <div class="grid-container">
+          <div class="item1">Address:</div>
+          <div class="item2">
+            Tirupati Division Kurnool Region Andhra Pradesh Circle
+            pincode=517507,
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="profile-area">
+      <div class="card" style="width: 400px">
+        <img class="img1" src="img2.jpg" alt=".." />
+        <img class="img2" src="profile2.jpg" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Jammuna</h5>
+          <p class="card-text">
+            Sri Padmavathi Mahila visvaVidhyalam university ,Bachelor of
+            Technlogy,Computer science and Engineering .
+          </p>
+        </div>
+        <div class="grid-container">
+          <div class="item1">Address:</div>
+          <div class="item2">
+            Tirupati Division Kurnool Region Andhra Pradesh Circle
+            pincode=517507,
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="profile-area">
+      <div class="card" style="width: 400px">
+        <img class="img1" src="img2.jpg" alt="..." />
+        <img class="img2" src="profile3.jpg" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Joesph Marry</h5>
+          <p class="card-text">
+            Chadalawada Ramanamma Engineering College,Bachelor OF
+            Techonology,Electronic engineering
+          </p>
+        </div>
+        <div class="grid-container">
+          <div class="item1">Address:</div>
+          <div class="item2">
+            Tirupati Division Kurnool Region Andhra Pradesh Circle
+            pincode=517507,
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
