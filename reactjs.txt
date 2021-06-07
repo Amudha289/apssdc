@@ -1,0 +1,137 @@
+05/19/2021 		HTML5
+web:
+web Designing:The designing of web page or website is nothing webdesign
+
+website:The collection of webpages under same domain
+Webpage:This is hypertext document
+
+HTML :hyper text markup language
+
+URL; uniform resource locater(web address is used to find particular webpages
+FRONT END:html,css,javascript boostsrap
+backend:python,java,.net..
+features
+it is used to crete webpage statically
+it is markup language -used webpage
+it is widely used in language in web
+markup tags or html tags:there are like keywords for defining that how web browser will display the content..
+
+<open tag>conent</closing tag>
+hyptext is linking the test(test within text)
+markup: it is used for formatting the structure
+<!DOCTYPE>: declaration represents the document type, and helps browsers to display web pages correctly.
+<head> :all the meta information is presented in head tag i.e.information about webpage or website
+<body> : all the physical information and also the conent in the page
+
+font size of heading tag in html(pixels)
+h1--->32px
+h2----->24px
+h3-------->18.72px
+h4---------->16
+h5-------->13.28px
+h6--------->12px
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+css-cascading style sheets
+css selectors
+1.Id selector---------->(#)
+2.class selector-------->(.)
+3.universal selector----->(*)
+4.grouping selector------->tagname,tagname
+
+---------------------
+Combinators
+1.Descendant selector(main p): select only div elements including if the div has main code section
+2.Childs selector(>)----:=select only div elements not other elements like code and main section
+3.Adjacent silibling selector(+);- select only div adjacent(whatever tag)it is.. 
+4.General silibling selector(~); it select after div elements i.e.sibling of specified element not code and section elements is selected.
+
+	pseudo-class
+
+A pseudo-class is used to define a special state of an element.
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+pseudo class is used in only anchor tag
+selector:pseudo-class
+<style>
+        a::before{
+            color: blue;
+        }
+        /*mose over link*/
+        a:hover{
+            color: red;
+        }
+        /* after selected link*/
+        a::after{
+            color: hotpink;
+        
+        }
+        /*visited link*/
+        a:visited{
+            color: green;
+        }
+        /*selected link*/
+        a:active{
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1><a href="default.asp">css links</h1></a>
+    <p>pseudo class is used to mouse click action</p>
+    <h2>click Here</h2>
+
+------------------------
+21/05/2021
+
+FLEX -BOX:
+CSS-FLEX CONTAINER
+CSS-FLEX ITEMS
+CSS -FLEX RESPONSIVE
+
+
+Boostrap
+
+1.it is popualr html ,css,js framework for the mobile friendly and responses websites
+2.it is free open source free to download
+3.it is used in front-end
+4.it is used as js plugins
+5.it is creating the responsive web designs
+6.it is creating by jacob and markotoo in 2011
+
+use of boostrap
+1.all the browser will accept
+2.quick styling
+it is used in oofline and online
+online-cdn
+offline-
+
+Bootstrap�s grid system can adapt across all six default breakpoints, and any breakpoints you customize. The six default grid tiers are as follow:
+
+Extra small (xs)
+Small (sm)
+Medium (md)
+Large (lg)
+Extra large (xl)
+Extra extra large (xxl)
+
+
+what is react ?
+it is open source js librw
+
+
+
+
+
+
+
+
+
+

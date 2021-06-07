@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            background-color: yellow;
+        }
+        main{
+            color:red;
+            text-align: center;
+        }
+
+        div +p{
+            color:black;
+            text-align: center;
+            border: 5px solid violet;
+            margin: 20px 25px 30px 15px;
+            padding: 25px 20px 30px;
+            background-color: tomato;
+        }
+        div ~p{
+            background-color: aqua;
+            border: 10px solid magenta;
+            margin: 20px 25px 30px 15px;
+            padding: 25px 20px 30px;
+            color: black;
+            text-align: center;
+        }
+       div .childselector{
+            background-color: yellow;
+            color:blue;
+            margin: 20px 25px 30px 15px;
+            padding: 25px 20px 30px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>this is paragraph1</p>
+        <p>this is paragraph2</p>
+        <main>this is main paragraph3</main>
+        <p>this is paragraph4</p>
+    </div>
+    <p>This is paragraph5</p><coed>some code</coed>
+    <p>this is paragraph6</p>
+<p>The child selector (>) selects all elements that are the children of a specified element.</p>
+<div class="childselector">
+    <p>this is paragraph1</p>
+    <code>this is code section </code>
+    <p>this is not a code section</p>
+    <main>this is main content of webpage</main>
+    <p>this is last paragraph in page.</p>
+</div>
+</body>
+</html>
